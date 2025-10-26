@@ -1,0 +1,273 @@
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --purple-color: #C271FF;
+    --light-color: #FFFFFF;
+    --font: "Source Sans 3", sans-serif;
+    
+}
+
+body {
+    font-family: var(--font);
+    color: var(--light-color);
+}
+
+.start {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: wrap;
+    width: 100%;
+    padding: 10px 45px 80px;
+}
+
+.hero-section {
+    background-image: url(Images/Object.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.links {
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--light-color);
+}
+
+.hero-board {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    /*width: 100%;*/
+    text-align: center;
+    font-weight: 700;
+    font-size: 120px;
+}
+
+.board {
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+    margin-top: -20px;
+}
+
+.button-container {
+    background-color: #C271FF;
+    border-radius: 20px;
+    /*padding: 15px 10px;*/
+    color: #FFFFFF;
+    margin: 20px 0px 100px;
+    width: 160px;
+    height: 45px;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.H2 {
+    font-weight: 300;
+}
+
+.span1 {
+    color: var(--purple-color) ;
+}
+.people {
+    display: flex;
+    flex-direction: row;
+    margin-top: 75px;
+    gap: 100px;
+    text-align: center;
+}
+
+.pic {
+    border-radius: 100px;
+}
+
+/* Quote Section */
+.quote-sec {
+    background-color: var(--purple-color);
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+    gap: 25px;
+}
+
+.Quote2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    gap: 7px;
+
+}
+
+/* Tutorials */
+.tutorials-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    padding: 50px;
+}
+
+.main-tut{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px;
+    gap: 20px;
+}
+
+.tut-card {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 5px;
+
+
+} 
+
+.tutor{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-align: center;
+    color: #C271FF;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.tutor img {
+    width: 15%;
+    height: auto%;
+}
+
+
+.min-likes {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-end; */
+    justify-content: space-around;
+    
+}
+
+.likes {
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-start;
+    /* color: #C271FF; */
+}
+
+.pink {
+    color: #C271FF;
+}
+
+.grey {
+    color: grey;
+}
+
+/* membership */
+ 
+.membership {
+    background-color: #071629;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    padding: 50px 0 10px;
+}
+
+.members {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    justify-content: space-evenly;
+}
+
+.members div {
+    text-align: center;
+    max-width: 20%;
+    align-items: center;
+}
+
+
+/* faq sections */
+.faq-section {
+    color: #071629;
+    margin: 25px;
+    padding: 25px 5.5rem;
+
+}
+
+.faq-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+
+
+.faq {
+    /* color: #071629; */
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    gap: 100px;
+}
+
+
+.faq div {
+    padding: 20px;
+}
+
+
+/* footer styles */
+.footer {
+     background-color: #071629;
+     display: flex;
+     justify-content: space-around;
+
+}
+.footer-section {
+    /* background-color: #071629; */
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    height: auto;
+    gap: 650px;
+}
+
+.footer-section div {
+   padding: 50px;
+}
+
+.copyright {
+    background-color: #071629;
+    text-align: center;
+    /* color: #071629; */
+    color: gray;
+    font-size: 0.8rem;
+    padding: 25px;
+}
